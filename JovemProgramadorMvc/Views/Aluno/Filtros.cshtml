@@ -1,0 +1,45 @@
+﻿@model AlunoModel
+
+<form asp-controller="Aluno" asp-action="Index">
+
+    <div>
+        <h1>Filtros Aluno</h1>
+    </div>
+
+    <div class="mb-3">
+        <label>Você quer buscar a idade:</label>
+        <div class="d-flex">
+            <input type="text" asp-for="Idade" class="form-control col-md-1 mr-3" required />
+            <select class="form-select" aria-label="Default select example" asp-for="Operacao">
+                <option selected>BUSCAR POR...</option>
+                <option value="=">IDADE IGUAL</option>
+                <option value=">">IDADE MAIOR</option>
+                <option value="<">IDADE MENOR</option>
+            </select>
+        </div>
+    </div>
+    <button class="btn btn-primary mb-3" type="submit">BUSCAR</button>
+</form>
+<form asp-controller="Aluno" asp-action="Index" method="post">
+    <div class="mb-3">
+        <label>Você quer buscar o nome:</label>
+        <div class="d-flex">
+            <input type="text" asp-for="Nome" class="form-control col-md-1 mr-3" required />
+        </div>
+    </div>
+    <button class="btn btn-primary mb-3" type="submit">BUSCAR</button>
+</form>
+<form asp-controller="Aluno" asp-action="Index" method="post">
+    <div class="mb-3">
+        <label>Você quer buscar o contato:</label>
+        <div class="d-flex">
+            <input type="text" asp-for="Contato" class="form-control col-md-1 mr-3" required />
+        </div>
+    </div>
+    <button class="btn btn-primary mb-3" type="submit">BUSCAR</button>
+</form>
+<form>
+    <div class="text-center">
+        <a class="btn btn-primary" type="button" asp-controller="Aluno" asp-action="Index">Voltar</a>
+    </div>
+</form>
