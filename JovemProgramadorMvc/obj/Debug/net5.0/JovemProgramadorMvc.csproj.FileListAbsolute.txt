@@ -790,3 +790,4 @@ C:\Users\joel.santos1\Downloads\JovemProgramadorMvc2\JovemProgramadorMvc\JovemPr
 C:\Users\joel.santos1\Downloads\JovemProgramadorMvc2\JovemProgramadorMvc\JovemProgramadorMvc\obj\Debug\net5.0\JovemProgramadorMvc.genruntimeconfig.cache
 C:\Users\joel.santos1\Downloads\JovemProgramadorMvc2\JovemProgramadorMvc\JovemProgramadorMvc\obj\Debug\net5.0\Razor\Views\Aluno\Editar.cshtml.g.cs
 C:\Users\joel.santos1\Downloads\JovemProgramadorMvc2\JovemProgramadorMvc\JovemProgramadorMvc\obj\Debug\net5.0\Razor\Views\Aluno\Filtros.cshtml.g.cs
+C:\Users\joel.santos1\Downloads\JovemProgramadorMvc2\JovemProgramadorMvc\JovemProgramadorMvc\obj\Debug\net5.0\Razor\Views\Informações\Index.cshtml.g.cs
